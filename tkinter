@@ -1,18 +1,32 @@
 from tkinter import *
 # keep the question in a separate json file
 q = [
-    "Capital of India",
-    "South most city in India",
-    "Captain of Indian Cricket Team"
+    "1) Capital of India",
+    "2) South most city in India",
+    "3) Captain of Indian Cricket Team",
+    "4) Most damaging weapon in PUBG",
+    '5) CEO of AMAZON',
+    "6) Fastest Hundred in ODI",
+    '7) ………….. also known as Big B',
+    '8) .avi file extension refers to which kind of file',
+    '9) Number of maps in PUBG',
+    '10) FIFA 2018 Champion' 
 ]
 
 options = [
     ["New Delhi", "Mumbai", "Kolkata", "Chennai"],
     ["Delhi", "Mumbai", "Chennai", "Kanyakumari"],
-    ["Virat Kohli","Rohit Sharma","Shikhar Dhawan","Zaheer Khan"]
+    ["Virat Kohli","Rohit Sharma","Shikhar Dhawan","Zaheer Khan"],
+    ['M416','AWM','AKM','MK14'],
+    ['Bill Gates','Sundar Pichhaii','Satya Nadela','Jeff Bezos'],
+    ['AB Devilliers','Chris Gayle','Corey Anderson','Virat Kohli'],
+    ['Shahrukh Khan','Salman Khan','Amitabh Bachchan','Prabhas'],
+    ['Audio','Video','Document','Image'],
+    ["1","2","3","4"],
+    ["Germany","Croatia","France","Brazil"]
 ]
 
-a = [1, 4, 1]
+a = [1, 4, 1, 2, 4, 1, 3, 2, 4, 3]
 
 class Quiz:
     def __init__(self, master):
