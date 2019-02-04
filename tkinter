@@ -1,5 +1,4 @@
 from tkinter import *
-# keep the question in a separate json file
 q = [
     "1) Capital of India",
     "2) South most city in India",
